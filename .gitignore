@@ -1,1 +1,3 @@
+airflow-docker/dags/scripts/
 airflow-docker/dags/scripts/db_config_statictable.py
+*DB_STRING*.py
