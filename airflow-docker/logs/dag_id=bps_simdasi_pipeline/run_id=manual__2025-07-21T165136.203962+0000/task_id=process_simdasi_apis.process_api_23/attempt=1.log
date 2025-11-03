@@ -1,0 +1,52 @@
+[2025-07-21T16:58:54.492+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-21T16:58:54.551+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bps_simdasi_pipeline.process_simdasi_apis.process_api_23 manual__2025-07-21T16:51:36.203962+00:00 [queued]>
+[2025-07-21T16:58:54.572+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bps_simdasi_pipeline.process_simdasi_apis.process_api_23 manual__2025-07-21T16:51:36.203962+00:00 [queued]>
+[2025-07-21T16:58:54.574+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-07-21T16:58:54.608+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): process_simdasi_apis.process_api_23> on 2025-07-21 16:51:36.203962+00:00
+[2025-07-21T16:58:54.636+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=414) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-07-21T16:58:54.652+0000] {standard_task_runner.py:63} INFO - Started process 416 to run task
+[2025-07-21T16:58:54.641+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'bps_simdasi_pipeline', 'process_simdasi_apis.process_api_23', 'manual__2025-07-21T16:51:36.203962+00:00', '--job-id', '226', '--raw', '--subdir', 'DAGS_FOLDER/bps_simdasi_pipeline.py', '--cfg-path', '/tmp/tmp_4uxjjjq']
+[2025-07-21T16:58:54.655+0000] {standard_task_runner.py:91} INFO - Job 226: Subtask process_simdasi_apis.process_api_23
+[2025-07-21T16:58:54.827+0000] {task_command.py:426} INFO - Running <TaskInstance: bps_simdasi_pipeline.process_simdasi_apis.process_api_23 manual__2025-07-21T16:51:36.203962+00:00 [running]> on host be615b49433c
+[2025-07-21T16:58:55.253+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='bps_simdasi_pipeline' AIRFLOW_CTX_TASK_ID='process_simdasi_apis.process_api_23' AIRFLOW_CTX_EXECUTION_DATE='2025-07-21T16:51:36.203962+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-21T16:51:36.203962+00:00'
+[2025-07-21T16:58:55.258+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-21T16:58:55.261+0000] {logging_mixin.py:188} INFO - 🔁 Processing URL: https://webapi.bps.go.id/v1/api/view/domain/0000/model/statictable/lang/ind/id/1176/key/79452e4c302f8921ad36cd2bf55f0630/
+[2025-07-21T16:58:55.265+0000] {logging_mixin.py:188} INFO - 
+🔄 Mencoba mengambil daftar tahun yang tersedia secara otomatis...
+[2025-07-21T16:58:55.270+0000] {logging_mixin.py:188} INFO - ❌ Terjadi kesalahan saat mengambil tahun otomatis: 'NoneType' object has no attribute 'group'
+[2025-07-21T16:58:55.272+0000] {logging_mixin.py:188} INFO - ⚠️ Menggunakan rentang tahun default: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+[2025-07-21T16:58:55.275+0000] {logging_mixin.py:188} INFO - 
+--- Memulai Loop Pengambilan Data SIMDASI ---
+[2025-07-21T16:58:55.277+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil tahun 2015...
+[2025-07-21T16:58:56.639+0000] {logging_mixin.py:188} INFO - ❌ Gagal mengurai data untuk tahun 2015. Kesalahan: 1
+[2025-07-21T16:58:56.642+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil tahun 2016...
+[2025-07-21T16:58:57.360+0000] {logging_mixin.py:188} INFO - ❌ Gagal mengurai data untuk tahun 2016. Kesalahan: 1
+[2025-07-21T16:58:57.369+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil tahun 2017...
+[2025-07-21T16:58:58.323+0000] {logging_mixin.py:188} INFO - ❌ Gagal mengurai data untuk tahun 2017. Kesalahan: 1
+[2025-07-21T16:58:58.325+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil tahun 2018...
+[2025-07-21T16:58:59.068+0000] {logging_mixin.py:188} INFO - ❌ Gagal mengurai data untuk tahun 2018. Kesalahan: 1
+[2025-07-21T16:58:59.069+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil tahun 2019...
+[2025-07-21T16:58:59.724+0000] {logging_mixin.py:188} INFO - ❌ Gagal mengurai data untuk tahun 2019. Kesalahan: 1
+[2025-07-21T16:58:59.726+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil tahun 2020...
+[2025-07-21T16:59:00.387+0000] {logging_mixin.py:188} INFO - ❌ Gagal mengurai data untuk tahun 2020. Kesalahan: 1
+[2025-07-21T16:59:00.389+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil tahun 2021...
+[2025-07-21T16:59:01.001+0000] {logging_mixin.py:188} INFO - ❌ Gagal mengurai data untuk tahun 2021. Kesalahan: 1
+[2025-07-21T16:59:01.002+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil tahun 2022...
+[2025-07-21T16:59:02.474+0000] {logging_mixin.py:188} INFO - ❌ Gagal mengurai data untuk tahun 2022. Kesalahan: 1
+[2025-07-21T16:59:02.477+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil tahun 2023...
+[2025-07-21T16:59:03.147+0000] {logging_mixin.py:188} INFO - ❌ Gagal mengurai data untuk tahun 2023. Kesalahan: 1
+[2025-07-21T16:59:03.148+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil tahun 2024...
+[2025-07-21T16:59:03.796+0000] {logging_mixin.py:188} INFO - ❌ Gagal mengurai data untuk tahun 2024. Kesalahan: 1
+[2025-07-21T16:59:03.797+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil tahun 2025...
+[2025-07-21T16:59:04.369+0000] {logging_mixin.py:188} INFO - ❌ Gagal mengurai data untuk tahun 2025. Kesalahan: 1
+[2025-07-21T16:59:04.370+0000] {logging_mixin.py:188} INFO - 
+❌ Gagal Total: Tidak dapat menangkap metadata nama dari tahun manapun. Proses dihentikan.
+[2025-07-21T16:59:04.380+0000] {logging_mixin.py:188} INFO - ⚠️ No data processed or table name missing
+[2025-07-21T16:59:04.381+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-07-21T16:59:04.382+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-07-21T16:59:04.402+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=bps_simdasi_pipeline, task_id=process_simdasi_apis.process_api_23, run_id=manual__2025-07-21T16:51:36.203962+00:00, execution_date=20250721T165136, start_date=20250721T165854, end_date=20250721T165904
+[2025-07-21T16:59:04.449+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-07-21T16:59:04.496+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-07-21T16:59:04.500+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,60 @@
+[2025-07-09T03:27:23.032+0000] {processor.py:161} INFO - Started process (PID=6346) to work on /opt/airflow/dags/simple_dag.py
+[2025-07-09T03:27:23.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_dag.py for tasks to queue
+[2025-07-09T03:27:23.039+0000] {logging_mixin.py:188} INFO - [2025-07-09T03:27:23.038+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/simple_dag.py
+[2025-07-09T03:27:23.239+0000] {logging_mixin.py:188} INFO - [2025-07-09T03:27:23.211+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/simple_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/simple_dag.py", line 4, in <module>
+    from tasks import simple_logic  # Import dari file kedua
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'tasks'
+[2025-07-09T03:27:23.266+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/simple_dag.py
+[2025-07-09T03:27:23.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_dag.py took 0.434 seconds
+[2025-07-09T03:27:53.831+0000] {processor.py:161} INFO - Started process (PID=6405) to work on /opt/airflow/dags/simple_dag.py
+[2025-07-09T03:27:53.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_dag.py for tasks to queue
+[2025-07-09T03:27:53.843+0000] {logging_mixin.py:188} INFO - [2025-07-09T03:27:53.841+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/simple_dag.py
+[2025-07-09T03:27:53.965+0000] {logging_mixin.py:188} INFO - [2025-07-09T03:27:53.945+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/simple_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/simple_dag.py", line 4, in <module>
+    from tasks import simple_logic  # Import dari file kedua
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'tasks'
+[2025-07-09T03:27:53.972+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/simple_dag.py
+[2025-07-09T03:27:54.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_dag.py took 0.280 seconds
+[2025-07-09T03:28:24.491+0000] {processor.py:161} INFO - Started process (PID=6463) to work on /opt/airflow/dags/simple_dag.py
+[2025-07-09T03:28:24.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_dag.py for tasks to queue
+[2025-07-09T03:28:24.496+0000] {logging_mixin.py:188} INFO - [2025-07-09T03:28:24.495+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/simple_dag.py
+[2025-07-09T03:28:24.554+0000] {logging_mixin.py:188} INFO - [2025-07-09T03:28:24.542+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/simple_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/simple_dag.py", line 4, in <module>
+    from tasks import simple_logic  # Import dari file kedua
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'tasks'
+[2025-07-09T03:28:24.559+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/simple_dag.py
+[2025-07-09T03:28:24.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_dag.py took 0.142 seconds
+[2025-07-09T03:28:54.808+0000] {processor.py:161} INFO - Started process (PID=6523) to work on /opt/airflow/dags/simple_dag.py
+[2025-07-09T03:28:54.811+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_dag.py for tasks to queue
+[2025-07-09T03:28:54.814+0000] {logging_mixin.py:188} INFO - [2025-07-09T03:28:54.813+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/simple_dag.py
+[2025-07-09T03:28:54.867+0000] {logging_mixin.py:188} INFO - [2025-07-09T03:28:54.855+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/simple_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/simple_dag.py", line 4, in <module>
+    from tasks import simple_logic  # Import dari file kedua
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'tasks'
+[2025-07-09T03:28:54.871+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/simple_dag.py
+[2025-07-09T03:28:54.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_dag.py took 0.142 seconds

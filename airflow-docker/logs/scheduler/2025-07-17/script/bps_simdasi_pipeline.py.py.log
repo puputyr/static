@@ -1,0 +1,98 @@
+[2025-07-17T01:26:43.817+0000] {processor.py:161} INFO - Started process (PID=71) to work on /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:26:43.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/script/bps_simdasi_pipeline.py.py for tasks to queue
+[2025-07-17T01:26:43.848+0000] {logging_mixin.py:188} INFO - [2025-07-17T01:26:43.846+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:26:45.017+0000] {logging_mixin.py:188} INFO - [2025-07-17T01:26:44.446+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/bps_simdasi_pipeline.py.py", line 5, in <module>
+    from plugins.bps_helpers.get_data_simdasi import handle_simdasi_detail_table
+ModuleNotFoundError: No module named 'plugins'
+[2025-07-17T01:26:45.073+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:26:50.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/script/bps_simdasi_pipeline.py.py took 6.530 seconds
+[2025-07-17T01:27:40.136+0000] {processor.py:161} INFO - Started process (PID=136) to work on /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:27:40.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/script/bps_simdasi_pipeline.py.py for tasks to queue
+[2025-07-17T01:27:40.148+0000] {logging_mixin.py:188} INFO - [2025-07-17T01:27:40.147+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:27:40.243+0000] {logging_mixin.py:188} INFO - [2025-07-17T01:27:40.223+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/bps_simdasi_pipeline.py.py", line 5, in <module>
+    from plugins.bps_helpers.get_data_simdasi import handle_simdasi_detail_table
+ModuleNotFoundError: No module named 'plugins'
+[2025-07-17T01:27:40.250+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:27:40.329+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/script/bps_simdasi_pipeline.py.py took 0.215 seconds
+[2025-07-17T01:28:10.846+0000] {processor.py:161} INFO - Started process (PID=194) to work on /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:28:10.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/script/bps_simdasi_pipeline.py.py for tasks to queue
+[2025-07-17T01:28:10.854+0000] {logging_mixin.py:188} INFO - [2025-07-17T01:28:10.853+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:28:10.920+0000] {logging_mixin.py:188} INFO - [2025-07-17T01:28:10.906+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/bps_simdasi_pipeline.py.py", line 5, in <module>
+    from plugins.bps_helpers.get_data_simdasi import handle_simdasi_detail_table
+ModuleNotFoundError: No module named 'plugins'
+[2025-07-17T01:28:10.925+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:28:10.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/script/bps_simdasi_pipeline.py.py took 0.151 seconds
+[2025-07-17T01:28:41.588+0000] {processor.py:161} INFO - Started process (PID=253) to work on /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:28:41.590+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/script/bps_simdasi_pipeline.py.py for tasks to queue
+[2025-07-17T01:28:41.594+0000] {logging_mixin.py:188} INFO - [2025-07-17T01:28:41.593+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:28:41.637+0000] {logging_mixin.py:188} INFO - [2025-07-17T01:28:41.629+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/bps_simdasi_pipeline.py.py", line 5, in <module>
+    from plugins.bps_helpers.get_data_simdasi import handle_simdasi_detail_table
+ModuleNotFoundError: No module named 'plugins'
+[2025-07-17T01:28:41.642+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:28:41.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/script/bps_simdasi_pipeline.py.py took 0.107 seconds
+[2025-07-17T01:29:11.992+0000] {processor.py:161} INFO - Started process (PID=312) to work on /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:29:11.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/script/bps_simdasi_pipeline.py.py for tasks to queue
+[2025-07-17T01:29:11.998+0000] {logging_mixin.py:188} INFO - [2025-07-17T01:29:11.998+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:29:12.045+0000] {logging_mixin.py:188} INFO - [2025-07-17T01:29:12.035+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/bps_simdasi_pipeline.py.py", line 5, in <module>
+    from plugins.bps_helpers.get_data_simdasi import handle_simdasi_detail_table
+ModuleNotFoundError: No module named 'plugins'
+[2025-07-17T01:29:12.049+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:29:12.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/script/bps_simdasi_pipeline.py.py took 0.112 seconds
+[2025-07-17T01:29:42.460+0000] {processor.py:161} INFO - Started process (PID=372) to work on /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:29:42.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/script/bps_simdasi_pipeline.py.py for tasks to queue
+[2025-07-17T01:29:42.468+0000] {logging_mixin.py:188} INFO - [2025-07-17T01:29:42.467+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:29:42.519+0000] {logging_mixin.py:188} INFO - [2025-07-17T01:29:42.507+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/bps_simdasi_pipeline.py.py", line 5, in <module>
+    from plugins.bps_helpers.get_data_simdasi import handle_simdasi_detail_table
+ModuleNotFoundError: No module named 'plugins'
+[2025-07-17T01:29:42.525+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:29:42.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/script/bps_simdasi_pipeline.py.py took 0.132 seconds
+[2025-07-17T01:30:12.750+0000] {processor.py:161} INFO - Started process (PID=431) to work on /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:30:12.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/script/bps_simdasi_pipeline.py.py for tasks to queue
+[2025-07-17T01:30:12.755+0000] {logging_mixin.py:188} INFO - [2025-07-17T01:30:12.754+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:30:12.792+0000] {logging_mixin.py:188} INFO - [2025-07-17T01:30:12.783+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/script/bps_simdasi_pipeline.py.py", line 5, in <module>
+    from plugins.bps_helpers.get_data_simdasi import handle_simdasi_detail_table
+ModuleNotFoundError: No module named 'plugins'
+[2025-07-17T01:30:12.795+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/script/bps_simdasi_pipeline.py.py
+[2025-07-17T01:30:12.832+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/script/bps_simdasi_pipeline.py.py took 0.091 seconds

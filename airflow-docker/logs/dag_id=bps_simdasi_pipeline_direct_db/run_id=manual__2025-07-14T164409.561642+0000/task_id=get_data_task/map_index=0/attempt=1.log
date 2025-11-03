@@ -1,0 +1,33 @@
+[2025-07-14T16:44:29.879+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-14T16:44:29.954+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bps_simdasi_pipeline_direct_db.get_data_task manual__2025-07-14T16:44:09.561642+00:00 map_index=0 [queued]>
+[2025-07-14T16:44:29.982+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bps_simdasi_pipeline_direct_db.get_data_task manual__2025-07-14T16:44:09.561642+00:00 map_index=0 [queued]>
+[2025-07-14T16:44:29.984+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-07-14T16:44:30.022+0000] {taskinstance.py:2330} INFO - Executing <Mapped(_PythonDecoratedOperator): get_data_task> on 2025-07-14 16:44:09.561642+00:00
+[2025-07-14T16:44:30.085+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=1353) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-07-14T16:44:30.086+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'bps_simdasi_pipeline_direct_db', 'get_data_task', 'manual__2025-07-14T16:44:09.561642+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/script/dag_simdasi.py', '--cfg-path', '/tmp/tmpru67cfpx', '--map-index', '0']
+[2025-07-14T16:44:30.137+0000] {standard_task_runner.py:91} INFO - Job 94: Subtask get_data_task
+[2025-07-14T16:44:30.138+0000] {standard_task_runner.py:63} INFO - Started process 1361 to run task
+[2025-07-14T16:44:31.788+0000] {task_command.py:426} INFO - Running <TaskInstance: bps_simdasi_pipeline_direct_db.get_data_task manual__2025-07-14T16:44:09.561642+00:00 map_index=0 [running]> on host be615b49433c
+[2025-07-14T16:44:32.834+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='bps_simdasi_pipeline_direct_db' AIRFLOW_CTX_TASK_ID='get_data_task' AIRFLOW_CTX_EXECUTION_DATE='2025-07-14T16:44:09.561642+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-14T16:44:09.561642+00:00'
+[2025-07-14T16:44:32.842+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-14T16:44:32.853+0000] {logging_mixin.py:188} INFO - 
+Memulai pemrosesan untuk: https://webapi.bps.go.id/v1/api/interoperabilitas/datasource/simdasi/id/25/tahun/{tahun}/id_tabel/SnM1eUlLcDgxNDR4aEowTlJpbjh3Zz09/wilayah/0000000/key/79452e4c302f8921ad36cd2bf55f0630/
+[2025-07-14T16:44:32.855+0000] {logging_mixin.py:188} INFO - -> Terdeteksi URL template, mencari tahun yang tersedia...
+[2025-07-14T16:44:32.859+0000] {logging_mixin.py:188} INFO - 
+🔄 Mencoba mengambil daftar tahun yang tersedia...
+[2025-07-14T16:44:36.113+0000] {logging_mixin.py:188} INFO - ⚠️ Menggunakan rentang tahun default: [2020, 2021, 2022, 2023, 2024, 2025]
+[2025-07-14T16:44:36.134+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil data dari: https://webapi.bps.go.id/v1/api/interoperabilitas/datasource/simdasi/id/25/tahun/2020/id_tabel/SnM1eUlLcDgxNDR4aEowTlJpbjh3Zz09/wilayah/0000000/key/79452e4c302f8921ad36cd2bf55f0630/
+[2025-07-14T16:44:36.934+0000] {logging_mixin.py:188} INFO - ✅ Metadata ditangkap: Skema='api_bps_none', Tabel='nn'
+[2025-07-14T16:44:36.936+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil data dari: https://webapi.bps.go.id/v1/api/interoperabilitas/datasource/simdasi/id/25/tahun/2021/id_tabel/SnM1eUlLcDgxNDR4aEowTlJpbjh3Zz09/wilayah/0000000/key/79452e4c302f8921ad36cd2bf55f0630/
+[2025-07-14T16:44:37.615+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil data dari: https://webapi.bps.go.id/v1/api/interoperabilitas/datasource/simdasi/id/25/tahun/2022/id_tabel/SnM1eUlLcDgxNDR4aEowTlJpbjh3Zz09/wilayah/0000000/key/79452e4c302f8921ad36cd2bf55f0630/
+[2025-07-14T16:44:38.674+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil data dari: https://webapi.bps.go.id/v1/api/interoperabilitas/datasource/simdasi/id/25/tahun/2023/id_tabel/SnM1eUlLcDgxNDR4aEowTlJpbjh3Zz09/wilayah/0000000/key/79452e4c302f8921ad36cd2bf55f0630/
+[2025-07-14T16:44:39.853+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil data dari: https://webapi.bps.go.id/v1/api/interoperabilitas/datasource/simdasi/id/25/tahun/2024/id_tabel/SnM1eUlLcDgxNDR4aEowTlJpbjh3Zz09/wilayah/0000000/key/79452e4c302f8921ad36cd2bf55f0630/
+[2025-07-14T16:44:40.601+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil data dari: https://webapi.bps.go.id/v1/api/interoperabilitas/datasource/simdasi/id/25/tahun/2025/id_tabel/SnM1eUlLcDgxNDR4aEowTlJpbjh3Zz09/wilayah/0000000/key/79452e4c302f8921ad36cd2bf55f0630/
+[2025-07-14T16:44:41.438+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-07-14T16:44:41.446+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-07-14T16:44:41.495+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=bps_simdasi_pipeline_direct_db, task_id=get_data_task, run_id=manual__2025-07-14T16:44:09.561642+00:00, map_index=0, execution_date=20250714T164409, start_date=20250714T164429, end_date=20250714T164441
+[2025-07-14T16:44:41.703+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-07-14T16:44:41.884+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-14T16:44:41.907+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,116 @@
+[2025-07-07T03:34:35.912+0000] {processor.py:161} INFO - Started process (PID=17779) to work on /opt/airflow/dags/nyoba.py
+[2025-07-07T03:34:35.922+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nyoba.py for tasks to queue
+[2025-07-07T03:34:35.936+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:34:35.934+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:34:36.150+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:34:36.935+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:34:36.934+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:simple_dag
+[2025-07-07T03:34:36.964+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:34:36.963+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:simple_dag
+[2025-07-07T03:34:36.984+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:34:36.983+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:simple_dag
+[2025-07-07T03:34:36.986+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:34:36.986+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-07T03:34:37.032+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:34:37.031+0000] {dag.py:3118} INFO - Creating ORM DAG for simple_dag
+[2025-07-07T03:34:37.077+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:34:37.076+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_dag to 2025-07-06 00:00:00+00:00, run_after=2025-07-07 00:00:00+00:00
+[2025-07-07T03:34:37.188+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nyoba.py took 1.339 seconds
+[2025-07-07T03:35:07.491+0000] {processor.py:161} INFO - Started process (PID=17839) to work on /opt/airflow/dags/nyoba.py
+[2025-07-07T03:35:07.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nyoba.py for tasks to queue
+[2025-07-07T03:35:07.499+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:35:07.499+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:35:07.558+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:35:07.612+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:35:07.611+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-07T03:35:07.677+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:35:07.677+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_dag to 2025-07-06 00:00:00+00:00, run_after=2025-07-07 00:00:00+00:00
+[2025-07-07T03:35:07.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nyoba.py took 0.250 seconds
+[2025-07-07T03:35:37.846+0000] {processor.py:161} INFO - Started process (PID=17898) to work on /opt/airflow/dags/nyoba.py
+[2025-07-07T03:35:37.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nyoba.py for tasks to queue
+[2025-07-07T03:35:37.854+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:35:37.853+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:35:37.919+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:35:38.045+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:35:38.045+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-07T03:35:38.119+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:35:38.118+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_dag to 2025-07-06 00:00:00+00:00, run_after=2025-07-07 00:00:00+00:00
+[2025-07-07T03:35:38.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nyoba.py took 0.344 seconds
+[2025-07-07T03:36:08.397+0000] {processor.py:161} INFO - Started process (PID=17957) to work on /opt/airflow/dags/nyoba.py
+[2025-07-07T03:36:08.399+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nyoba.py for tasks to queue
+[2025-07-07T03:36:08.404+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:36:08.403+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:36:08.457+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:36:08.512+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:36:08.512+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-07T03:36:08.577+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:36:08.576+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_dag to 2025-07-06 00:00:00+00:00, run_after=2025-07-07 00:00:00+00:00
+[2025-07-07T03:36:08.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nyoba.py took 0.257 seconds
+[2025-07-07T03:36:39.016+0000] {processor.py:161} INFO - Started process (PID=18015) to work on /opt/airflow/dags/nyoba.py
+[2025-07-07T03:36:39.018+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nyoba.py for tasks to queue
+[2025-07-07T03:36:39.025+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:36:39.024+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:36:39.086+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:36:39.168+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:36:39.167+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-07T03:36:39.245+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:36:39.245+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_dag to 2025-07-06 00:00:00+00:00, run_after=2025-07-07 00:00:00+00:00
+[2025-07-07T03:36:39.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nyoba.py took 0.311 seconds
+[2025-07-07T03:37:09.584+0000] {processor.py:161} INFO - Started process (PID=18074) to work on /opt/airflow/dags/nyoba.py
+[2025-07-07T03:37:09.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nyoba.py for tasks to queue
+[2025-07-07T03:37:09.590+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:37:09.589+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:37:09.644+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:37:09.689+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:37:09.688+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-07T03:37:09.735+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:37:09.734+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_dag to 2025-07-06 00:00:00+00:00, run_after=2025-07-07 00:00:00+00:00
+[2025-07-07T03:37:09.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nyoba.py took 0.214 seconds
+[2025-07-07T03:37:40.139+0000] {processor.py:161} INFO - Started process (PID=18133) to work on /opt/airflow/dags/nyoba.py
+[2025-07-07T03:37:40.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nyoba.py for tasks to queue
+[2025-07-07T03:37:40.147+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:37:40.147+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:37:40.203+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:37:40.263+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:37:40.262+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-07T03:37:40.340+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:37:40.339+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_dag to 2025-07-06 00:00:00+00:00, run_after=2025-07-07 00:00:00+00:00
+[2025-07-07T03:37:40.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nyoba.py took 0.279 seconds
+[2025-07-07T03:38:15.132+0000] {processor.py:161} INFO - Started process (PID=18198) to work on /opt/airflow/dags/nyoba.py
+[2025-07-07T03:38:15.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nyoba.py for tasks to queue
+[2025-07-07T03:38:15.223+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:38:15.220+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:38:17.040+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:38:17.765+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:38:17.765+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-07T03:38:18.030+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:38:18.030+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_dag to 2025-07-06 00:00:00+00:00, run_after=2025-07-07 00:00:00+00:00
+[2025-07-07T03:38:18.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nyoba.py took 3.298 seconds
+[2025-07-07T03:41:22.164+0000] {processor.py:161} INFO - Started process (PID=67) to work on /opt/airflow/dags/nyoba.py
+[2025-07-07T03:41:22.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nyoba.py for tasks to queue
+[2025-07-07T03:41:22.187+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:41:22.185+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:41:22.386+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:41:23.406+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:41:23.405+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-07T03:41:23.538+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:41:23.537+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_dag to 2025-07-06 00:00:00+00:00, run_after=2025-07-07 00:00:00+00:00
+[2025-07-07T03:41:23.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nyoba.py took 1.574 seconds
+[2025-07-07T03:42:01.950+0000] {processor.py:161} INFO - Started process (PID=132) to work on /opt/airflow/dags/nyoba.py
+[2025-07-07T03:42:01.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nyoba.py for tasks to queue
+[2025-07-07T03:42:01.966+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:42:01.965+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:42:02.090+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:42:02.191+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:42:02.190+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-07T03:42:02.302+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:42:02.301+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_dag to 2025-07-06 00:00:00+00:00, run_after=2025-07-07 00:00:00+00:00
+[2025-07-07T03:42:02.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nyoba.py took 0.477 seconds
+[2025-07-07T03:42:33.328+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/nyoba.py
+[2025-07-07T03:42:33.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nyoba.py for tasks to queue
+[2025-07-07T03:42:33.334+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:42:33.334+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:42:33.377+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:42:33.417+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:42:33.416+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-07T03:42:33.458+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:42:33.457+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_dag to 2025-07-06 00:00:00+00:00, run_after=2025-07-07 00:00:00+00:00
+[2025-07-07T03:42:33.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nyoba.py took 0.183 seconds
+[2025-07-07T03:43:03.768+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/nyoba.py
+[2025-07-07T03:43:03.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nyoba.py for tasks to queue
+[2025-07-07T03:43:03.776+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:43:03.775+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:43:03.832+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:43:03.889+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:43:03.889+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-07T03:43:03.947+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:43:03.946+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_dag to 2025-07-06 00:00:00+00:00, run_after=2025-07-07 00:00:00+00:00
+[2025-07-07T03:43:04.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nyoba.py took 0.251 seconds
+[2025-07-07T03:43:34.526+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/nyoba.py
+[2025-07-07T03:43:34.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nyoba.py for tasks to queue
+[2025-07-07T03:43:34.534+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:43:34.533+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:43:34.593+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:43:34.660+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:43:34.660+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-07T03:43:34.751+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:43:34.750+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_dag to 2025-07-06 00:00:00+00:00, run_after=2025-07-07 00:00:00+00:00
+[2025-07-07T03:43:34.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nyoba.py took 0.332 seconds
+[2025-07-07T03:44:05.695+0000] {processor.py:161} INFO - Started process (PID=366) to work on /opt/airflow/dags/nyoba.py
+[2025-07-07T03:44:05.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nyoba.py for tasks to queue
+[2025-07-07T03:44:05.715+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:44:05.712+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:44:05.828+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:44:05.995+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:44:05.993+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-07T03:44:06.163+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:44:06.160+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_dag to 2025-07-06 00:00:00+00:00, run_after=2025-07-07 00:00:00+00:00
+[2025-07-07T03:44:06.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nyoba.py took 0.634 seconds
+[2025-07-07T03:44:36.828+0000] {processor.py:161} INFO - Started process (PID=425) to work on /opt/airflow/dags/nyoba.py
+[2025-07-07T03:44:36.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nyoba.py for tasks to queue
+[2025-07-07T03:44:36.841+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:44:36.840+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:44:36.886+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:44:36.932+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:44:36.931+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-07T03:44:36.984+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:44:36.984+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_dag to 2025-07-06 00:00:00+00:00, run_after=2025-07-07 00:00:00+00:00
+[2025-07-07T03:44:37.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nyoba.py took 0.229 seconds
+[2025-07-07T03:45:07.835+0000] {processor.py:161} INFO - Started process (PID=484) to work on /opt/airflow/dags/nyoba.py
+[2025-07-07T03:45:07.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nyoba.py for tasks to queue
+[2025-07-07T03:45:07.844+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:45:07.844+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:45:07.913+0000] {processor.py:840} INFO - DAG(s) 'simple_dag' retrieved from /opt/airflow/dags/nyoba.py
+[2025-07-07T03:45:07.978+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:45:07.977+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-07T03:45:08.050+0000] {logging_mixin.py:188} INFO - [2025-07-07T03:45:08.049+0000] {dag.py:3954} INFO - Setting next_dagrun for simple_dag to 2025-07-06 00:00:00+00:00, run_after=2025-07-07 00:00:00+00:00
+[2025-07-07T03:45:08.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nyoba.py took 0.298 seconds

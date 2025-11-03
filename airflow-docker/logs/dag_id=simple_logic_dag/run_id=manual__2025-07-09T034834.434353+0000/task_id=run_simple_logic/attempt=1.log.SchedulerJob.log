@@ -1,0 +1,1 @@
+[2025-07-09T03:48:50.630+0000] {scheduler_job_runner.py:769} ERROR - Executor reports task instance <TaskInstance: simple_logic_dag.run_simple_logic manual__2025-07-09T03:48:34.434353+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

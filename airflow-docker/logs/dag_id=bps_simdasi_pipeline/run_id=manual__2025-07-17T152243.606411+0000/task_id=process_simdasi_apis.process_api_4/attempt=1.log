@@ -1,0 +1,40 @@
+[2025-07-17T15:23:41.510+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-17T15:23:41.791+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bps_simdasi_pipeline.process_simdasi_apis.process_api_4 manual__2025-07-17T15:22:43.606411+00:00 [queued]>
+[2025-07-17T15:23:41.974+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bps_simdasi_pipeline.process_simdasi_apis.process_api_4 manual__2025-07-17T15:22:43.606411+00:00 [queued]>
+[2025-07-17T15:23:42.020+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-07-17T15:23:42.318+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): process_simdasi_apis.process_api_4> on 2025-07-17 15:22:43.606411+00:00
+[2025-07-17T15:23:42.709+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=838) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-07-17T15:23:42.816+0000] {standard_task_runner.py:63} INFO - Started process 870 to run task
+[2025-07-17T15:23:42.827+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'bps_simdasi_pipeline', 'process_simdasi_apis.process_api_4', 'manual__2025-07-17T15:22:43.606411+00:00', '--job-id', '189', '--raw', '--subdir', 'DAGS_FOLDER/bps_simdasi_pipeline.py', '--cfg-path', '/tmp/tmpswzqoc34']
+[2025-07-17T15:23:42.841+0000] {standard_task_runner.py:91} INFO - Job 189: Subtask process_simdasi_apis.process_api_4
+[2025-07-17T15:23:45.740+0000] {task_command.py:426} INFO - Running <TaskInstance: bps_simdasi_pipeline.process_simdasi_apis.process_api_4 manual__2025-07-17T15:22:43.606411+00:00 [running]> on host be615b49433c
+[2025-07-17T15:23:49.107+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='bps_simdasi_pipeline' AIRFLOW_CTX_TASK_ID='process_simdasi_apis.process_api_4' AIRFLOW_CTX_EXECUTION_DATE='2025-07-17T15:22:43.606411+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-17T15:22:43.606411+00:00'
+[2025-07-17T15:23:49.202+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-17T15:23:49.263+0000] {logging_mixin.py:188} INFO - Processing URL: https://webapi.bps.go.id/v1/api/interoperabilitas/datasource/simdasi/id/25/tahun/2020/id_tabel/elJzMTFDZWI0bS9OcGptMVFWNEdhdz09/wilayah/0000000/key/79452e4c302f8921ad36cd2bf55f0630
+[2025-07-17T15:23:49.270+0000] {logging_mixin.py:188} INFO - 
+🔄 Mencoba mengambil daftar tahun yang tersedia secara otomatis...
+[2025-07-17T15:23:55.932+0000] {logging_mixin.py:188} INFO - ✅ Tahun yang tersedia ditemukan: [2017, 2018, 2019, 2020]
+[2025-07-17T15:23:55.953+0000] {logging_mixin.py:188} INFO - 
+--- Memulai Loop Pengambilan Data SIMDASI ---
+[2025-07-17T15:23:55.990+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil tahun 2017...
+[2025-07-17T15:23:57.295+0000] {logging_mixin.py:188} INFO - 
+✅ Metadata awal ditangkap dari tahun 2017:
+[2025-07-17T15:23:57.299+0000] {logging_mixin.py:188} INFO -    -> Nama Skema: api_bps_hortikultura_khutanan_perikanan
+[2025-07-17T15:23:57.301+0000] {logging_mixin.py:188} INFO -    -> Nama Kolom Label: provinsi
+[2025-07-17T15:23:57.303+0000] {logging_mixin.py:188} INFO -    -> ID Kategori (mms_id): 557
+[2025-07-17T15:23:57.309+0000] {logging_mixin.py:188} INFO - -> Berhasil memproses data untuk tahun 2017.
+[2025-07-17T15:23:57.316+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil tahun 2018...
+[2025-07-17T15:23:58.594+0000] {logging_mixin.py:188} INFO - -> Berhasil memproses data untuk tahun 2018.
+[2025-07-17T15:23:58.618+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil tahun 2019...
+[2025-07-17T15:24:00.385+0000] {logging_mixin.py:188} INFO - -> Berhasil memproses data untuk tahun 2019.
+[2025-07-17T15:24:00.388+0000] {logging_mixin.py:188} INFO - 🔄 Mengambil tahun 2020...
+[2025-07-17T15:24:01.561+0000] {logging_mixin.py:188} INFO - -> Berhasil memproses data untuk tahun 2020.
+[2025-07-17T15:24:04.777+0000] {logging_mixin.py:188} INFO - ✅ Data saved to api_bps_hortikultura_khutanan_perikanan.prdks_prkbnn_mnrt_jns_tnmn_mnrt_prvns_rb_tn_2020
+[2025-07-17T15:24:04.781+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-07-17T15:24:04.800+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-07-17T15:24:04.869+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=bps_simdasi_pipeline, task_id=process_simdasi_apis.process_api_4, run_id=manual__2025-07-17T15:22:43.606411+00:00, execution_date=20250717T152243, start_date=20250717T152341, end_date=20250717T152404
+[2025-07-17T15:24:05.012+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-07-17T15:24:05.155+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-17T15:24:05.183+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

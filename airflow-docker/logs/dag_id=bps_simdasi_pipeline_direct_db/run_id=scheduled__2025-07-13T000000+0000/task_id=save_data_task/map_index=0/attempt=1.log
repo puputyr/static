@@ -1,0 +1,26 @@
+[2025-07-14T15:10:37.342+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-14T15:10:37.464+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bps_simdasi_pipeline_direct_db.save_data_task scheduled__2025-07-13T00:00:00+00:00 map_index=0 [queued]>
+[2025-07-14T15:10:37.519+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bps_simdasi_pipeline_direct_db.save_data_task scheduled__2025-07-13T00:00:00+00:00 map_index=0 [queued]>
+[2025-07-14T15:10:37.522+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-07-14T15:10:37.579+0000] {taskinstance.py:2330} INFO - Executing <Mapped(_PythonDecoratedOperator): save_data_task> on 2025-07-13 00:00:00+00:00
+[2025-07-14T15:10:37.627+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=170) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-07-14T15:10:37.633+0000] {standard_task_runner.py:63} INFO - Started process 172 to run task
+[2025-07-14T15:10:37.637+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'bps_simdasi_pipeline_direct_db', 'save_data_task', 'scheduled__2025-07-13T00:00:00+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/script/dag_simdasi.py', '--cfg-path', '/tmp/tmpe0nju08o', '--map-index', '0']
+[2025-07-14T15:10:37.642+0000] {standard_task_runner.py:91} INFO - Job 76: Subtask save_data_task
+[2025-07-14T15:10:37.879+0000] {task_command.py:426} INFO - Running <TaskInstance: bps_simdasi_pipeline_direct_db.save_data_task scheduled__2025-07-13T00:00:00+00:00 map_index=0 [running]> on host be615b49433c
+[2025-07-14T15:10:38.270+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='bps_simdasi_pipeline_direct_db' AIRFLOW_CTX_TASK_ID='save_data_task' AIRFLOW_CTX_EXECUTION_DATE='2025-07-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-13T00:00:00+00:00'
+[2025-07-14T15:10:38.275+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-14T15:10:38.294+0000] {warnings.py:112} WARNING - /opt/***/dags/save_data_to_postgre.py:32: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  df = pd.read_json(processed_data['data'], orient='split')
+
+[2025-07-14T15:10:38.547+0000] {logging_mixin.py:188} INFO - Memastikan skema 'api_bps_simdasi_master' ada...
+[2025-07-14T15:10:38.640+0000] {logging_mixin.py:188} INFO - Menyimpan data ke api_bps_simdasi_master.smds_lst_26...
+[2025-07-14T15:10:39.395+0000] {logging_mixin.py:188} INFO - ✅ Data berhasil disimpan ke api_bps_simdasi_master.smds_lst_26
+[2025-07-14T15:10:39.400+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-07-14T15:10:39.408+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-07-14T15:10:39.480+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=bps_simdasi_pipeline_direct_db, task_id=save_data_task, run_id=scheduled__2025-07-13T00:00:00+00:00, map_index=0, execution_date=20250713T000000, start_date=20250714T151037, end_date=20250714T151039
+[2025-07-14T15:10:39.683+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-07-14T15:10:39.786+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-14T15:10:39.796+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,77 @@
+[2025-07-08T08:53:26.133+0000] {processor.py:161} INFO - Started process (PID=15861) to work on /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:53:26.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/python_script_dag.py for tasks to queue
+[2025-07-08T08:53:26.146+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:53:26.144+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:53:26.257+0000] {processor.py:840} INFO - DAG(s) 'template_data_kab_dag' retrieved from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:53:27.083+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:53:27.082+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-08T08:53:27.301+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:53:27.296+0000] {dag.py:3954} INFO - Setting next_dagrun for template_data_kab_dag to 2025-07-07 15:00:00+00:00, run_after=2025-07-08 15:00:00+00:00
+[2025-07-08T08:53:27.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_script_dag.py took 1.448 seconds
+[2025-07-08T08:53:57.814+0000] {processor.py:161} INFO - Started process (PID=15921) to work on /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:53:57.818+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/python_script_dag.py for tasks to queue
+[2025-07-08T08:53:57.822+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:53:57.821+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:53:57.924+0000] {processor.py:840} INFO - DAG(s) 'template_data_kab_dag' retrieved from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:53:58.006+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:53:58.004+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-08T08:53:58.097+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:53:58.096+0000] {dag.py:3954} INFO - Setting next_dagrun for template_data_kab_dag to 2025-07-07 15:00:00+00:00, run_after=2025-07-08 15:00:00+00:00
+[2025-07-08T08:53:58.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_script_dag.py took 0.401 seconds
+[2025-07-08T08:54:28.830+0000] {processor.py:161} INFO - Started process (PID=15979) to work on /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:54:28.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/python_script_dag.py for tasks to queue
+[2025-07-08T08:54:28.842+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:54:28.840+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:54:28.928+0000] {processor.py:840} INFO - DAG(s) 'template_data_kab_dag' retrieved from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:54:28.993+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:54:28.992+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-08T08:54:29.069+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:54:29.067+0000] {dag.py:3954} INFO - Setting next_dagrun for template_data_kab_dag to 2025-07-07 15:00:00+00:00, run_after=2025-07-08 15:00:00+00:00
+[2025-07-08T08:54:29.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_script_dag.py took 0.335 seconds
+[2025-07-08T08:54:59.510+0000] {processor.py:161} INFO - Started process (PID=16038) to work on /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:54:59.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/python_script_dag.py for tasks to queue
+[2025-07-08T08:54:59.519+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:54:59.518+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:54:59.597+0000] {processor.py:840} INFO - DAG(s) 'template_data_kab_dag' retrieved from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:54:59.660+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:54:59.659+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-08T08:54:59.731+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:54:59.730+0000] {dag.py:3954} INFO - Setting next_dagrun for template_data_kab_dag to 2025-07-07 15:00:00+00:00, run_after=2025-07-08 15:00:00+00:00
+[2025-07-08T08:54:59.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_script_dag.py took 0.314 seconds
+[2025-07-08T08:55:30.605+0000] {processor.py:161} INFO - Started process (PID=16097) to work on /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:55:30.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/python_script_dag.py for tasks to queue
+[2025-07-08T08:55:30.614+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:55:30.613+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:55:30.712+0000] {processor.py:840} INFO - DAG(s) 'template_data_kab_dag' retrieved from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:55:30.795+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:55:30.794+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-08T08:55:30.911+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:55:30.908+0000] {dag.py:3954} INFO - Setting next_dagrun for template_data_kab_dag to 2025-07-07 15:00:00+00:00, run_after=2025-07-08 15:00:00+00:00
+[2025-07-08T08:55:31.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_script_dag.py took 0.434 seconds
+[2025-07-08T08:56:04.068+0000] {processor.py:161} INFO - Started process (PID=16156) to work on /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:56:04.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/python_script_dag.py for tasks to queue
+[2025-07-08T08:56:04.076+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:56:04.075+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:56:04.185+0000] {processor.py:840} INFO - DAG(s) 'template_data_kab_dag' retrieved from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:56:04.265+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:56:04.264+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-08T08:56:04.351+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:56:04.350+0000] {dag.py:3954} INFO - Setting next_dagrun for template_data_kab_dag to 2025-07-07 15:00:00+00:00, run_after=2025-07-08 15:00:00+00:00
+[2025-07-08T08:56:04.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_script_dag.py took 0.394 seconds
+[2025-07-08T08:56:35.821+0000] {processor.py:161} INFO - Started process (PID=16215) to work on /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:56:35.854+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/python_script_dag.py for tasks to queue
+[2025-07-08T08:56:35.881+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:56:35.879+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:56:36.275+0000] {processor.py:840} INFO - DAG(s) 'template_data_kab_dag' retrieved from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:56:36.415+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:56:36.414+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-08T08:56:36.680+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:56:36.679+0000] {dag.py:3954} INFO - Setting next_dagrun for template_data_kab_dag to 2025-07-07 15:00:00+00:00, run_after=2025-07-08 15:00:00+00:00
+[2025-07-08T08:56:36.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_script_dag.py took 1.117 seconds
+[2025-07-08T08:57:07.501+0000] {processor.py:161} INFO - Started process (PID=16274) to work on /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:57:07.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/python_script_dag.py for tasks to queue
+[2025-07-08T08:57:07.508+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:57:07.507+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:57:07.585+0000] {processor.py:840} INFO - DAG(s) 'template_data_kab_dag' retrieved from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:57:07.656+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:57:07.655+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-08T08:57:07.738+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:57:07.738+0000] {dag.py:3954} INFO - Setting next_dagrun for template_data_kab_dag to 2025-07-07 15:00:00+00:00, run_after=2025-07-08 15:00:00+00:00
+[2025-07-08T08:57:07.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_script_dag.py took 0.338 seconds
+[2025-07-08T08:57:38.199+0000] {processor.py:161} INFO - Started process (PID=16334) to work on /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:57:38.202+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/python_script_dag.py for tasks to queue
+[2025-07-08T08:57:38.205+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:57:38.204+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:57:38.271+0000] {processor.py:840} INFO - DAG(s) 'template_data_kab_dag' retrieved from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:57:38.334+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:57:38.333+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-08T08:57:38.410+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:57:38.410+0000] {dag.py:3954} INFO - Setting next_dagrun for template_data_kab_dag to 2025-07-07 15:00:00+00:00, run_after=2025-07-08 15:00:00+00:00
+[2025-07-08T08:57:38.464+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_script_dag.py took 0.284 seconds
+[2025-07-08T08:58:08.712+0000] {processor.py:161} INFO - Started process (PID=16393) to work on /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:58:08.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/python_script_dag.py for tasks to queue
+[2025-07-08T08:58:08.724+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:58:08.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:58:08.806+0000] {processor.py:840} INFO - DAG(s) 'template_data_kab_dag' retrieved from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:58:08.910+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:58:08.909+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-08T08:58:09.068+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:58:09.067+0000] {dag.py:3954} INFO - Setting next_dagrun for template_data_kab_dag to 2025-07-07 15:00:00+00:00, run_after=2025-07-08 15:00:00+00:00
+[2025-07-08T08:58:09.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_script_dag.py took 0.507 seconds
+[2025-07-08T08:58:39.910+0000] {processor.py:161} INFO - Started process (PID=16449) to work on /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:58:39.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/python_script_dag.py for tasks to queue
+[2025-07-08T08:58:39.920+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:58:39.917+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:58:40.015+0000] {processor.py:840} INFO - DAG(s) 'template_data_kab_dag' retrieved from /opt/airflow/dags/python_script_dag.py
+[2025-07-08T08:58:40.110+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:58:40.109+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-08T08:58:40.202+0000] {logging_mixin.py:188} INFO - [2025-07-08T08:58:40.200+0000] {dag.py:3954} INFO - Setting next_dagrun for template_data_kab_dag to 2025-07-07 15:00:00+00:00, run_after=2025-07-08 15:00:00+00:00
+[2025-07-08T08:58:40.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_script_dag.py took 0.477 seconds

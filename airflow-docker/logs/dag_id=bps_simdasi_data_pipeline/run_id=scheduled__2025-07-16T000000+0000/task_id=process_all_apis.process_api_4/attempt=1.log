@@ -1,0 +1,63 @@
+[2025-07-17T01:33:07.634+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-17T01:33:07.723+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bps_simdasi_data_pipeline.process_all_apis.process_api_4 scheduled__2025-07-16T00:00:00+00:00 [queued]>
+[2025-07-17T01:33:07.777+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bps_simdasi_data_pipeline.process_all_apis.process_api_4 scheduled__2025-07-16T00:00:00+00:00 [queued]>
+[2025-07-17T01:33:07.780+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-07-17T01:33:07.860+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): process_all_apis.process_api_4> on 2025-07-16 00:00:00+00:00
+[2025-07-17T01:33:07.904+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=140) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-07-17T01:33:07.911+0000] {standard_task_runner.py:63} INFO - Started process 153 to run task
+[2025-07-17T01:33:07.916+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'bps_simdasi_data_pipeline', 'process_all_apis.process_api_4', 'scheduled__2025-07-16T00:00:00+00:00', '--job-id', '105', '--raw', '--subdir', 'DAGS_FOLDER/bps_simdasi_pipeline.py.py', '--cfg-path', '/tmp/tmp5rc3twbw']
+[2025-07-17T01:33:07.920+0000] {standard_task_runner.py:91} INFO - Job 105: Subtask process_all_apis.process_api_4
+[2025-07-17T01:33:08.429+0000] {task_command.py:426} INFO - Running <TaskInstance: bps_simdasi_data_pipeline.process_all_apis.process_api_4 scheduled__2025-07-16T00:00:00+00:00 [running]> on host be615b49433c
+[2025-07-17T01:33:09.207+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='bps_simdasi_data_pipeline' AIRFLOW_CTX_TASK_ID='process_all_apis.process_api_4' AIRFLOW_CTX_EXECUTION_DATE='2025-07-16T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-16T00:00:00+00:00'
+[2025-07-17T01:33:09.299+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-17T01:33:09.323+0000] {logging_mixin.py:188} INFO - 
+Processing URL: https://webapi.bps.go.id/v1/api/interoperabilitas/datasource/simdasi/id/25/tahun/2024/id_tabel/S2ViU1dwVTlpSXRwU1MvendHN05Cdz09/wilayah/3500000/key/79452e4c302f8921ad36cd2bf55f0630
+[2025-07-17T01:33:09.326+0000] {logging_mixin.py:188} INFO - 
+🔄 Fetching available years automatically...
+[2025-07-17T01:33:13.156+0000] {logging_mixin.py:188} INFO - ✅ Available years found: [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+[2025-07-17T01:33:13.157+0000] {logging_mixin.py:188} INFO - ❌ Error fetching available years: 'list' object has no attribute 'split'
+[2025-07-17T01:33:13.164+0000] {logging_mixin.py:188} INFO - ⚠️ Failed to detect years. Using default range: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+[2025-07-17T01:33:13.172+0000] {logging_mixin.py:188} INFO - 
+--- Starting SIMDASI Data Fetch Loop ---
+[2025-07-17T01:33:13.173+0000] {logging_mixin.py:188} INFO - 🔄 Processing year 2015...
+[2025-07-17T01:33:15.789+0000] {logging_mixin.py:188} INFO - 
+✅ Initial metadata captured from year 2015:
+[2025-07-17T01:33:15.790+0000] {logging_mixin.py:188} INFO -    -> Schema: api_bps_hortikultura_perkebunan_peternakan
+[2025-07-17T01:33:15.792+0000] {logging_mixin.py:188} INFO -    -> Label column: kabupatenkota
+[2025-07-17T01:33:15.793+0000] {logging_mixin.py:188} INFO -    -> Category ID: 557
+[2025-07-17T01:33:15.795+0000] {logging_mixin.py:188} INFO - -> Successfully processed data for year 2015
+[2025-07-17T01:33:15.796+0000] {logging_mixin.py:188} INFO - 🔄 Processing year 2016...
+[2025-07-17T01:33:18.325+0000] {logging_mixin.py:188} INFO - -> Successfully processed data for year 2016
+[2025-07-17T01:33:18.329+0000] {logging_mixin.py:188} INFO - 🔄 Processing year 2017...
+[2025-07-17T01:33:20.765+0000] {logging_mixin.py:188} INFO - -> Successfully processed data for year 2017
+[2025-07-17T01:33:20.768+0000] {logging_mixin.py:188} INFO - 🔄 Processing year 2018...
+[2025-07-17T01:33:23.994+0000] {logging_mixin.py:188} INFO - -> Successfully processed data for year 2018
+[2025-07-17T01:33:23.997+0000] {logging_mixin.py:188} INFO - 🔄 Processing year 2019...
+[2025-07-17T01:33:26.359+0000] {logging_mixin.py:188} INFO - -> Successfully processed data for year 2019
+[2025-07-17T01:33:26.371+0000] {logging_mixin.py:188} INFO - 🔄 Processing year 2020...
+[2025-07-17T01:33:28.673+0000] {logging_mixin.py:188} INFO - -> Successfully processed data for year 2020
+[2025-07-17T01:33:28.677+0000] {logging_mixin.py:188} INFO - 🔄 Processing year 2021...
+[2025-07-17T01:33:34.214+0000] {logging_mixin.py:188} INFO - -> Successfully processed data for year 2021
+[2025-07-17T01:33:34.216+0000] {logging_mixin.py:188} INFO - 🔄 Processing year 2022...
+[2025-07-17T01:33:37.356+0000] {logging_mixin.py:188} INFO - -> Successfully processed data for year 2022
+[2025-07-17T01:33:37.357+0000] {logging_mixin.py:188} INFO - 🔄 Processing year 2023...
+[2025-07-17T01:33:39.479+0000] {logging_mixin.py:188} INFO - -> Successfully processed data for year 2023
+[2025-07-17T01:33:39.481+0000] {logging_mixin.py:188} INFO - 🔄 Processing year 2024...
+[2025-07-17T01:33:41.673+0000] {logging_mixin.py:188} INFO - -> Successfully processed data for year 2024
+[2025-07-17T01:33:41.674+0000] {logging_mixin.py:188} INFO - 🔄 Processing year 2025...
+[2025-07-17T01:33:44.445+0000] {logging_mixin.py:188} INFO - -> Successfully processed data for year 2025
+[2025-07-17T01:33:44.447+0000] {logging_mixin.py:188} INFO - 
+✅ Final table name set to: 'ppls_trnk_mnrt_kbptnkt_dn_jns_trnk_d_prvns_jw_tmr_kr_2024'
+[2025-07-17T01:33:44.738+0000] {logging_mixin.py:188} INFO - Successfully retrieved 429 rows
+[2025-07-17T01:33:44.766+0000] {save_data_postgres.py:84} INFO - Attempting to save to: Schema='api_bps_hortikultura_perkebunan_peternakan', Table='ppls_trnk_mnrt_kbptnkt_dn_jns_trnk_d_prvns_jw_tmr_kr_2024'
+[2025-07-17T01:33:45.087+0000] {save_data_postgres.py:28} INFO - ✅ Successfully connected to PostgreSQL database
+[2025-07-17T01:33:45.226+0000] {save_data_postgres.py:52} INFO - ✅ Schema 'api_bps_hortikultura_perkebunan_peternakan' ensured
+[2025-07-17T01:33:47.185+0000] {save_data_postgres.py:120} INFO - ✅ Successfully saved 429 rows to api_bps_hortikultura_perkebunan_peternakan.ppls_trnk_mnrt_kbptnkt_dn_jns_trnk_d_prvns_jw_tmr_kr_2024
+[2025-07-17T01:33:47.189+0000] {logging_mixin.py:188} INFO - ✅ Data from https://webapi.bps.go.id/v1/api/interoperabilitas/datasource/simdasi/id/25/tahun/2024/id_tabel/S2ViU1dwVTlpSXRwU1MvendHN05Cdz09/wilayah/3500000/key/79452e4c302f8921ad36cd2bf55f0630 saved successfully
+[2025-07-17T01:33:47.198+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-07-17T01:33:47.201+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-07-17T01:33:47.337+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=bps_simdasi_data_pipeline, task_id=process_all_apis.process_api_4, run_id=scheduled__2025-07-16T00:00:00+00:00, execution_date=20250716T000000, start_date=20250717T013307, end_date=20250717T013347
+[2025-07-17T01:33:47.742+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-07-17T01:33:47.881+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

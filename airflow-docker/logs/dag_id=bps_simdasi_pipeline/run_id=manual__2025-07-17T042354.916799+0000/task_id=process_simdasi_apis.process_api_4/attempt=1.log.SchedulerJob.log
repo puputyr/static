@@ -1,0 +1,1 @@
+[2025-07-17T04:27:52.266+0000] {scheduler_job_runner.py:769} ERROR - Executor reports task instance <TaskInstance: bps_simdasi_pipeline.process_simdasi_apis.process_api_4 manual__2025-07-17T04:23:54.916799+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

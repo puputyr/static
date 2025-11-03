@@ -1,0 +1,1 @@
+[2025-07-08T16:34:00.199+0000] {scheduler_job_runner.py:769} ERROR - Executor reports task instance <TaskInstance: simdasi_test.run_python_script manual__2025-07-08T16:33:46.278840+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
